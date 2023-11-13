@@ -19,6 +19,7 @@ CREATE TABLE "subcategory" (
      )
 );
 
+--Insert csv data into this table last as it only has foreign keys
 CREATE TABLE "campaign" (
     "cf_id" INTEGER   NOT NULL,
     "contact_id" INTEGER   NOT NULL,
