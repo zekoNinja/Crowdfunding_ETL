@@ -57,8 +57,4 @@ ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY("
 REFERENCES "subcategory" ("subcategory_id");
 
 
---Check data from created tables to see if they exist
-SELECT * FROM category;
-SELECT * FROM subcategory;
-SELECT * FROM campaign;
-SELECT * FROM contacts;
+
